@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata&family=Nanum+Gothic+Coding&family=Rufina:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+
+p{
+    font-family: 'Quattrocento', serif;
+    font-size: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+body{
+    background-color: #f8f7f3;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: auto;
+}
+
+h1{
+    letter-spacing: 5px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 54px;
+    margin: 40px 0px 0px 0px;
+    color: #eb5e28;
+    text-shadow: 2px 2px 2px rgba(105, 105, 105, 0.674);
+}
+
+div#container > header{
+    width: 100%;
+ box-shadow: 8px 9px 40px 0px #f0855b;
+    margin: 10px 5px 10px 5px;
+    background-color: #403d38;
+    border-radius: 15px;
+}
+
+img{
+    width: 100%;
+}
+
+#imagens1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#imagens2{
+    display: flex;
+    justify-content: space-evenly;
+}
+h2{
+    text-decoration: dotted;
+    font-family: 'Rufina', serif;
+    font-size: 40px;
+    text-align: center;
+    color: #ed7444;
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+    color: #f0855b;
+}
+
+blockquote {
+    text-align: center;
+    color: #ed7444;
+}
+
+ul{
+    padding: 10px;
+    color:#ed7444;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+mark{
+    background-color: #f0855bad;
+}
+
+#citacoes{
+    border: #f0855b solid;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    background-color: #a5a5a543;
+    border-radius: 20px;
+}
+
+nav a{
+    transition-duration: 0.25s;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+    text-decoration:none;
+    color:white;
+}
+
+nav a:hover{
+    background-image: linear-gradient(to bottom, #c7c4c486, #403d38);
+    text-decoration: underline;
+    color: #f0855b;
+}
+        
+footer{
+    background-color: #f0855b;
+    border-radius: 20px;
+}
+        
+footer > p {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    margin: none;
+    color: #403d38;
+}
+        
+footer > h3{
+    margin: 16px 0px 0px 0px;
+    font-size: 16px;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    color: #403d38;
+    text-shadow: none;
+}
+        
+        
+        
+        
