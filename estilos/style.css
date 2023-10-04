@@ -108,7 +108,7 @@ nav a{
 }
 
 nav a:hover{
-    background-image: linear-gradient(to bottom, #c7c4c486, #f0855b);
+    background-image: linear-gradient(to bottom, #c7c4c486, #403d38);
     color: #f0855b;
     text-decoration: none;
 }
