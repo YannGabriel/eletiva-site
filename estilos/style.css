@@ -10,7 +10,7 @@
 
 p{
     font-family: 'Quattrocento', serif;
-    font-size: 20px;
+    font-size: 16px;
     text-align: center;
     margin: auto;
 }
@@ -29,15 +29,15 @@ h1{
     text-align: center;
     padding-top: 54px;
     margin: 40px 0px 0px 0px;
-    color: #eb5e28;
+    color: #f0855b;
     text-shadow: 2px 2px 2px rgba(105, 105, 105, 0.674);
 }
 
 div#container > header{
-    width: 100%;
- box-shadow: 8px 9px 40px 0px #f0855b;
+    width: 1200px;
+    height: 200px;
+    box-shadow: 8px 9px 40px 0px #f0855b;
     margin: 10px 5px 10px 5px;
-    background-color: #403d38;
     border-radius: 15px;
 }
 
@@ -57,7 +57,7 @@ img{
 h2{
     text-decoration: dotted;
     font-family: 'Rufina', serif;
-    font-size: 40px;
+    font-size: 25px;
     text-align: center;
     color: #ed7444;
 }
