@@ -120,6 +120,8 @@ nav a{
 }
 
 nav a:hover{
+    transition: all .4s;
+    transform: scale(1.1) translateY(-5px);
     background-color: transparent;
     color: #f0855b;
 }
