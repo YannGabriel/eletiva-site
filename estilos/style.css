@@ -47,15 +47,15 @@ img{
     width: 100%;
 }
 
-#imagens1{
+.imagens{
+    transition: all 2s;
     display: flex;
     justify-content: space-evenly;
+}
+#box:hover{
+    transform: scale(1.15);
 }
 
-#imagens2{
-    display: flex;
-    justify-content: space-evenly;
-}
 h2{
     text-decoration: dotted;
     font-family: 'Rufina', serif;
