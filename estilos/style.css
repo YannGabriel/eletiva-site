@@ -37,12 +37,15 @@ h1{
 
 div#container > header{
         position: relative;
-        width: 1200px;
+        min-width: 801px;
+        max-width: 1200px;
         height: 200px;
         box-shadow: 8px 9px 40px 0px #f0855b;
         margin: 0px 0px 10px 0px;
         border-radius: 15px 15px 15px 15px;
 }
+
+
 
 img{
     border-radius: 15px;
