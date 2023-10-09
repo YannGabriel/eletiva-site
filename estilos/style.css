@@ -144,8 +144,6 @@ footer > p {
     font-size: 12px;
     display: flex;
     justify-content: center;
-    margin: none;
-    color: #403d38;
 }
         
 footer > h3{
@@ -154,10 +152,17 @@ footer > h3{
     display:flex;
     justify-content:center;
     text-align:center;
-    color: #403d38;
+    color: #ffffff;
     text-shadow: none;
 }
-        
-        
+
+footer > p > a{
+    text-decoration: none;
+    color: white;
+}
+
+footer > p > a:hover{
+    color: black;
+}
         
         
