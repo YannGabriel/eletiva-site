@@ -40,3 +40,8 @@ main{
     background-color: #f8f7f3;
     margin: auto;
 }
+
+#imagens{
+    display: inline-block;
+    justify-content: space-between;
+}
