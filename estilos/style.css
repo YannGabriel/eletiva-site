@@ -110,6 +110,11 @@ mark{
     width: 30%;
     background-color: #a5a5a543;
     border-radius: 20px;
+    height: 150px;
+}
+
+#citacoes > p{
+    font-size: 18px;
 }
 
 nav a{
