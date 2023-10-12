@@ -48,6 +48,11 @@ div#container > header{
 img{
     border-radius: 15px;
     width: 100%;
+    filter: grayscale(100%);
+}
+
+img:hover{
+    filter: saturate(150%);
 }
 
 .imagens-s{
