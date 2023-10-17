@@ -1,3 +1,12 @@
+/*
+colors: 
+ #072D44 
+ #064469 
+ #5790AB 
+ #9CCDD8 
+ #D0D7E1
+*/
+
 @charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata&family=Nanum+Gothic+Coding&family=Rufina:wght@700&display=swap');
@@ -9,6 +18,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
 
 p{
+    color: #072d44;
     font-family: 'Quattrocento', serif;
     font-size: 16px;
     text-align: center;
@@ -16,7 +26,7 @@ p{
 }
 
 body{
-    background-color: #f8f7f3;
+    background-color: #d0d7e1;
     max-width: 1200px;
     min-width: 320px;
     margin: auto;
@@ -31,7 +41,7 @@ h1{
     text-align: center;
     padding-top: 35px;
     margin: 40px 0px 0px 0px;
-    color: #f0855b;
+    color: #9CCDD8 ;
     text-shadow: 2px 2px 2px rgba(105, 105, 105, 0.674);
 }
 
@@ -40,7 +50,7 @@ div#container > header{
         min-width: 801px;
         max-width: 1200px;
         height: 200px;
-        box-shadow: 8px 9px 40px 0px #f0855b;
+        box-shadow: 8px 9px 40px 0px #064469;
         margin: 0px 0px 10px 0px;
         border-radius: 15px 15px 15px 15px;
 }
@@ -79,33 +89,33 @@ h2{
     font-family: 'Rufina', serif;
     font-size: 25px;
     text-align: center;
-    color: #ed7444;
+    color: #5790AB;
 }
 
 h3{
     font-size: 30px;
     text-align: center;
-    color: #f0855b;
+    color: #064469;
 }
 
 blockquote {
     text-align: center;
-    color: #ed7444;
+    color: #5790AB;
 }
 
 ul{
     padding: 10px;
-    color:#ed7444;
+    color:#5790AB;
     display:flex;
     justify-content: space-evenly;
 }
 
 mark{
-    background-color: #f0855bad;
+    background-color: #9CCDD8;
 }
 
 #citacoes{
-    border: #f0855b solid;
+    border: 5px #9CCDD8 solid;
     padding: 20px;
     text-align: center;
     margin: auto;
@@ -137,11 +147,11 @@ nav a:hover{
     transition: all .4s;
     transform: scale(1.1) translateY(-5px);
     background-color: transparent;
-    color: #f0855b;
+    color: #5790AB;
 }
         
 footer{
-    background-color: #f0855b;
+    background-color: #9CCDD8;
     border-radius: 20px;
 }
         
