@@ -8,7 +8,7 @@ colors:
 */
 @charset "UTF-8";
 
-
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata&family=Nanum+Gothic+Coding&family=Rufina:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
@@ -16,6 +16,14 @@ colors:
 @import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap'); 
 
 @import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+
+p{
+    color: #072d44;
+    font-family: 'Zilla Slab', serif;
+    font-size: 24px;
+    text-align: center;
+    margin: auto;
+}
 
 header{
     margin: auto;
@@ -33,14 +41,24 @@ h1{
     text-align: center;
     padding-top: 50px;
     margin: auto;
-    color: #f0855b;
+    color: #9ccdd8;
     text-shadow: 2px 2px 2px rgba(105, 105, 105, 0.674);
 }
 
-main{
+body{
     width: 1200px;
-    background-color: #f8f7f3;
+    background-color: #d0d7e1;
     margin: auto;
+}
+
+div#container > header{
+    position: relative;
+    min-width: 801px;
+    max-width: 1200px;
+    height: 200px;
+    box-shadow: 8px 9px 40px 0px #064469;
+    margin: 0px 0px 10px 0px;
+    border-radius: 15px 15px 15px 15px;
 }
 
 #imagens{
