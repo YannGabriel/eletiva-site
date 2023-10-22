@@ -67,20 +67,21 @@ div#container > header{
 }
 
 a{
+    font-size: 19px;
     width: 200px;
     display: flex;
     justify-content: center;
-    background-color: #f0855b;
-    border: solid 2px black;
+    background-color: #072d44;
+    border: solid 2px white;
     border-radius: 10px;
     padding: 20px;
     margin: auto;
     text-decoration: none;
-    color: white;
+    color: #d0d7e1;
 }
 
 a:hover{
-    background-color: #fff;
-    color: #f0855b;
+    background-color: #9ccdd8;
+    color: #064469;
     border: solid 2px black;
 }
