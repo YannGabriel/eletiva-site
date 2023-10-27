@@ -27,7 +27,7 @@ p{
 
 header{
     margin: auto;
-    width: 1400px;
+    width: 1200px;
     height: 200px;
     border-radius: 15px;
 }
@@ -81,6 +81,7 @@ a{
 }
 
 a:hover{
+    transition: all .5s;
     background-color: #9ccdd8;
     color: #064469;
     border: solid 2px black;
