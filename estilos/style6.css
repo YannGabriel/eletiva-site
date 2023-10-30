@@ -25,7 +25,7 @@ p{
     margin: auto;
 }
 
-h1{
+#container > h1{
     letter-spacing: 5px;
     font-family: 'Sedgwick Ave Display', cursive;
     font-size: 80px;
