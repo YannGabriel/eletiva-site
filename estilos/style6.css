@@ -25,7 +25,7 @@ p{
     margin: auto;
 }
 
-#container > h1{
+header > h1{
     letter-spacing: 5px;
     font-family: 'Sedgwick Ave Display', cursive;
     font-size: 80px;
@@ -72,6 +72,10 @@ div#container > header{
     border-radius: 15px 15px 15px 15px;
 }
 
+img{
+    width: 1200px;
+    height: 400px;
+}
 #imagens{
     display: inline-block;
     justify-content: space-between;
