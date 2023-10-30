@@ -57,28 +57,35 @@ h3{
 
 
 body{
-    max-width: 1200px;
+    
+    background-color: #d0d7e1;
+    margin: auto;
+}
+
+main{
+    width: 1200px;
     background-color: #d0d7e1;
     margin: auto;
 }
 
 div#container > header{
     position: relative;
-    min-width: 801px;
-    max-width: 1200px;
+    align-items: center;
+    width: 1200px;
     height: 200px;
     box-shadow: 8px 9px 40px 0px #064469;
-    margin: 25px 0px 10px 0px;
     border-radius: 15px 15px 15px 15px;
 }
 
 img{
-    width: 1200px;
+    display:inline-block;
+    justify-content: center;
+    width: 100%;
     height: 400px;
 }
 #imagens{
-    display: inline-block;
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
 }
 
 a{
@@ -100,4 +107,18 @@ a:hover{
     background-color: #9ccdd8;
     color: #064469;
     border: solid 2px black;
+}
+
+h4{
+    color: #F16529;
+    text-align: center;
+    font-family: 'sub';
+}
+
+#html > p{
+    color: #54230e;
+}
+
+ul{
+    width: 100%;
 }
