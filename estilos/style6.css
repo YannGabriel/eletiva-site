@@ -113,7 +113,7 @@ div#container > header{
 
 #btn{
     font-size: 19px;
-    width: 200px;
+    width: 400px;
     display: flex;
     justify-content: center;
     background-color: #072d44;
@@ -176,13 +176,20 @@ li{
     font-family: 'sub';
 }
 
-#exemplo > p{
-    transform: scale(1.5);
+#Js > p{
+    color: #594904;
+}
+
+#exemplo > h4{
+    display: block;
+    width: 400px;
+    transform: scale(1.25);
     text-align: center;
     margin: auto;
 }
 
-#exemplo > p:hover{
+#exemplo > h4:hover{
+    display: block;
     width: 400px;
     border-radius: 10px;
     background-color: #9ccdd8;
