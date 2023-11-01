@@ -161,3 +161,32 @@ li{
     font-family: 'sub';
     color: #306DF1;
 }
+
+#css > img{
+    display: inline-block;
+}
+
+#css > p{
+    color: #072d44;
+}
+
+#Js > h4{
+    color: #F4CB0B;
+    text-align: center;
+    font-family: 'sub';
+}
+
+#exemplo > p{
+    transition: all 1.2s;
+    text-align: center;
+    margin: auto;
+}
+
+#exemplo > p:hover{
+    transition: all 1.2s;
+    text-align: center;
+    font-family: 'sub';
+    color: #306DF1;
+    text-shadow: 2px 2px 2px #072d44;
+
+}
