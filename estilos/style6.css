@@ -177,12 +177,16 @@ li{
 }
 
 #exemplo > p{
-    transition: all 1.2s;
+    transform: scale(1.5);
     text-align: center;
     margin: auto;
 }
 
 #exemplo > p:hover{
+    width: 400px;
+    border-radius: 10px;
+    background-color: #9ccdd8;
+    border: 1.5px 1.5px 1.5px grey;
     transition: all 1.2s;
     text-align: center;
     font-family: 'sub';
