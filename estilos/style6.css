@@ -57,8 +57,9 @@ h3{
 
 
 body{
-    width: 1800px;
-    background-color: #9ccdd89f;
+    margin: auto;
+    width: 1200px;
+    background-color: #d0d7e1;
 }
 
 main{
@@ -145,10 +146,14 @@ ul{
     width: 100%;
 }
 
+li{
+    width: 100%;
+    margin: auto;
+}
+
 #tags{
     color: #54230e;
     margin: auto;
-    padding-left: 45%;
 }
 
 #css h4{
