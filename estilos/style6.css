@@ -58,7 +58,7 @@ h3{
 
 body{
     margin: auto;
-    width: 1200px;
+    max-width: 1200px;
     background-color: #d0d7e1;
 }
 
@@ -163,6 +163,7 @@ li{
 }
 
 #css > img{
+    width: 100%;
     display: inline-block;
 }
 
