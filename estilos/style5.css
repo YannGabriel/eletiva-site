@@ -1,0 +1,46 @@
+/*
+colors: 
+ #072D44 
+ #064469 
+ #5790AB 
+ #9CCDD8 
+ #D0D7E1
+*/
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inconsolata&family=Nanum+Gothic+Coding&family=Rufina:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap'); 
+
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+
+
+body{
+    margin: auto;
+    background-color: #d0d7e1;
+    max-width: 1200px;
+}
+
+header > h1{
+    letter-spacing: 5px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 80px;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    padding-top: 50px;
+    color: #9ccdd8;
+    text-shadow: 2px 2px 2px rgba(105, 105, 105, 0.674);
+}
+
+#container > header{
+    position: relative;
+    align-items: center;
+    max-width: 1200px;
+    height: 200px;
+    box-shadow: 8px 9px 40px 0px #064469;
+    border-radius: 15px 15px 15px 15px;
+}
