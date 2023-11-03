@@ -155,7 +155,9 @@ nav a{
     color:white;
 }
 
+
 nav a:hover{
+    text-decoration: underline;
     transition: all .8s;
     transform: scale(1.1) translateY(-5px);
     background-color: transparent;
