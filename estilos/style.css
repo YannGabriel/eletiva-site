@@ -20,7 +20,7 @@ colors:
 
 p{
     color: #072d44;
-    font-family: 'Zilla Slab', serif;
+    font-family: 'text';
     font-size: 24px;
     text-align: center;
     margin: auto;
@@ -132,6 +132,7 @@ mark{
 }
 
 .citacoes > p{
+    font-family: 'Zilla';
     font-size: 18px;
 }
 

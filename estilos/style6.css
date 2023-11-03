@@ -19,8 +19,8 @@ colors:
 
 p{
     color: #072d44;
-    font-family: 'Zilla Slab', serif;
-    font-size: 24px;
+    font-family: 'text';
+    font-size: 22px;
     text-align: center;
     margin: auto;
 }
@@ -225,4 +225,39 @@ iframe{
     filter: saturate(110%);
     transform: scale(1.15);
     transition: all 1.2s;
+}
+
+footer{
+    padding: 5px;
+    background-color: #9CCDD8;
+    border-radius: 20px;
+}
+        
+footer > p {
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+        
+footer > h3{
+    margin: 16px 0px 0px 0px;
+    font-size: 16px;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    color: #ffffff;
+    text-shadow: none;
+}
+
+footer > p > a{
+    width: 800px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    transition: all 2s;
+}
+
+footer > p > a:hover{
+    letter-spacing:  7px;
+    color: black;
 }
