@@ -209,3 +209,20 @@ iframe{
     margin-left: 300px ;
     border-radius: 15px;
 }
+
+.sites-s{
+    display: inline-block;
+}
+
+.sites-s img{
+    filter: grayscale(100%);
+    max-width: 300px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.sites-s img:hover{
+    filter: saturate(110%);
+    transform: scale(1.15);
+    transition: all 1.2s;
+}

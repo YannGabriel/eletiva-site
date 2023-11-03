@@ -44,3 +44,24 @@ header > h1{
     box-shadow: 8px 9px 40px 0px #064469;
     border-radius: 15px 15px 15px 15px;
 }
+
+#btn{
+    font-size: 19px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: #072d44;
+    border: solid 2px white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    text-decoration: none;
+    color: #d0d7e1;
+}
+
+#btn:hover{
+    transition: all .5s;
+    background-color: #9ccdd8;
+    color: #064469;
+    border: solid 2px black;
+}
