@@ -36,7 +36,7 @@ body{
 h1{
     letter-spacing: 5px;
     font-family: 'Sedgwick Ave Display', cursive;
-    font-size: 80px;
+    font-size: 100px;
     display: grid;
     place-content: center;
     text-align: center;
@@ -106,6 +106,7 @@ blockquote {
 }
 
 ul{
+    margin-top: 0px;
     padding: 10px;
     color:#5790AB;
     display:flex;
@@ -145,6 +146,7 @@ mark{
 }
 
 nav a{
+    font-size: 20px;
     transition-duration: 0.25s;
     border-radius: 5px;
     padding-bottom: 20px;
