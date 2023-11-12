@@ -134,7 +134,8 @@ div#container > header{
 }
 
 #btn:hover{
-    transition: all .5s;
+    transform: scale(1.2);
+    transition: all 1.1s;
     background-color: #9ccdd8;
     color: #064469;
     border: solid 2px black;
