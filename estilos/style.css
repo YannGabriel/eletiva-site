@@ -19,6 +19,7 @@ colors:
 @import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
 
 p{
+    max-width: 100%;
     color: #072d44;
     font-family: 'text';
     font-size: 24px;
