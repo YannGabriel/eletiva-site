@@ -58,9 +58,9 @@ h3{
     font-family: 'sub';
 }
 
-#imagens img{
-    margin-left: 18%;
-    max-width: 800px;
+img{
+    max-width: 700px;
+    height: 500px;
     border-radius: 15px;
     width: 100%;
 }
@@ -99,6 +99,11 @@ p{
     border: solid 2px black;
 }
 
+.imagens{
+    display: flex;
+    justify-content: center;
+}
+
 footer{
     padding: 8px;
     background-color: #9CCDD8;
@@ -121,14 +126,20 @@ footer > h3{
     text-shadow: none;
 }
 
-#final > a{
-    text-align: center;
+ footer a{
+    color: white;
+    font-family: 'text' ;
+    text-decoration: none;
+    transition: all 2s;
+}
+
+#final {
     display: inline-block;
     width: 800px;
     font-size: 18px;
     text-decoration: none;
     color: white;
-    transition: all 2s;
+
 }
 
 #final > a:hover{

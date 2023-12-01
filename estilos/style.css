@@ -22,7 +22,7 @@ p{
     max-width: 100%;
     color: #072d44;
     font-family: 'text';
-    font-size: 1.5vw;
+    font-size: 18px;
     text-align: center;
     margin: auto;
 }
@@ -37,7 +37,7 @@ body{
 h1{
     letter-spacing: 5px;
     font-family: 'Sedgwick Ave Display', cursive;
-    font-size: 6.50vw;
+    font-size: 80px;
     display: grid;
     place-content: center;
     text-align: center;

@@ -37,13 +37,10 @@ header > h1{
     text-shadow: 2px 2px 2px rgba(105, 105, 105, 0.674);
 }
 
-#container{
+#hdr{
     position: relative;
     align-items: center;
-    max-width: 1200px;
-    height: 200px;
     box-shadow: 8px 9px 40px 0px #064469;
-    border-radius: 15px 15px 15px 15px;
 }
 
 h2{
@@ -52,10 +49,14 @@ h2{
     color: #064469;
 }
 
-h3{
+h3, h4{
     color: #9ccdd8;
     font-family: 'sub';
     text-align: center;
+}
+
+h4{
+    color: rgba(2, 138, 138, 0.26);
 }
 
 p{
@@ -84,4 +85,15 @@ p{
     background-color: #9ccdd8;
     color: #064469;
     border: solid 2px black;
+}
+
+img{
+    width: 700px;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.imagens{
+    display: flex;
+    justify-content: center;
 }
