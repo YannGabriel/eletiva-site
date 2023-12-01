@@ -112,7 +112,7 @@ footer{
         
 footer > a{
     font-size: 12px;
-    display: flex;
+    display: inline-block;
     justify-content: center;
 }
         
@@ -127,6 +127,7 @@ footer > h3{
 }
 
  footer a{
+    padding: 10px;
     color: white;
     font-family: 'text' ;
     text-decoration: none;
@@ -135,7 +136,7 @@ footer > h3{
 
 #final {
     display: inline-block;
-    width: 800px;
+    width: 1200px;
     font-size: 18px;
     text-decoration: none;
     color: white;

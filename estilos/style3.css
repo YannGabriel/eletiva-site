@@ -67,6 +67,7 @@ p{
 }
 
 #btn{
+    font-family: 'subs';
     font-size: 19px;
     width: 400px;
     display: flex;
@@ -81,7 +82,7 @@ p{
 }
 
 #btn:hover{
-    transition: all .5s;
+    transition: all .8s;
     background-color: #9ccdd8;
     color: #064469;
     border: solid 2px black;
@@ -96,4 +97,58 @@ img{
 .imagens{
     display: flex;
     justify-content: center;
+}
+footer{
+    align-items: center;
+    padding: 8px;
+    background-color: #9CCDD8;
+    border-radius: 20px;
+}
+        
+footer > a{
+    font-size: 20px;
+    display: inline-block;
+    justify-content: center;
+}
+        
+footer > h3{
+    margin: 16px 0px 0px 0px;
+    font-size: 16px;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    color: #ffffff;
+    text-shadow: none;
+}
+
+ footer a{
+    padding: 10px;
+    color: white;
+    font-family: 'text' ;
+    text-decoration: none;
+    transition: all 2s;
+}
+
+#final {
+    display: inline-block;
+    width: 1200px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+
+}
+
+footer > a:hover{
+    letter-spacing:  7px;
+    color: black;
+}
+
+#final{
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+}
+
+a {
+    display: inline-block;
 }
