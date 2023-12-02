@@ -74,14 +74,14 @@ p{
 
 #btn{
     font-family: 'subs';
-    font-size: 19px;
+    font-size: 25px;
     width: 400px;
     display: flex;
     justify-content: center;
     background-color: #072d44;
     border: solid 2px white;
     border-radius: 10px;
-    padding: 20px;
+    padding: 40px;
     margin: auto;
     text-decoration: none;
     color: #d0d7e1;
