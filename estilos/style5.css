@@ -25,6 +25,7 @@ body{
 }
 
 p{
+    font-size:  20px;
      text-align: center;
      font-family: 'text';
 }
@@ -56,10 +57,14 @@ h2{
     text-align: center;
 }
 
-h3{
+h3, h4{
     color: #9ccdd8;
     text-align: center;
     font-family: 'sub';
+}
+
+h4{
+    color: rgba(2, 138, 138, 0.26);
 }
 
 img{
@@ -102,7 +107,7 @@ footer{
 }
         
 footer > a{
-    font-size: 12px;
+    font-size: 20px;
     display: inline-block;
     justify-content: center;
 }
